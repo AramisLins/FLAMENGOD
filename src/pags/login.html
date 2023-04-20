@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form action="obg.html" method="get">
+            <h2>Entre em Contato</h2>
+            <div class="inputBox">
+                <input type="text" required>
+                <span>Digite seu nome</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="email" required>
+                <span>Digite seu Email</span>
+                <i></i>
+            </div>
+            <div class="checkPai">
+                <div class="checkBox">
+                    <input type="checkbox" name="termo" value="Concordo com os termos" required>
+                </div>
+                <div class="textoCheck">
+                    <label>
+                        Concordo com os Termos de Privacidade do Site
+                    </label>
+                </div>
+            </div>
+            <div class="select">
+                <label> Assunto: </label>
+                <select name="assunto">
+                    <option value="sugestao">Sugestão</option>
+                    <option value="critica">Crítica</option>
+                    <option value="elogio" selected>Elogio</option>
+                </select>
+            </div>
+            <div class="envio">
+                <a href="/src/pags/obg.html">
+                    <input type="submit" value="Enviar">
+                </a>
+            </div>
+        </form>
+    </div>
+    <div class="voltarHome">
+        <a href="/index.html"><h2>Clique para voltar</h2></a>
+        
+    </div>
+</body>
+
+</html>
