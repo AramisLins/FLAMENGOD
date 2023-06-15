@@ -82,7 +82,7 @@ header .imgFla img {
     font-size: 20px;
 }
 
-/* Section titulos */
+
 .titulos {
     background-image: url(/src/images/liberta22.jpg);
     width: 95%;
@@ -97,7 +97,7 @@ header .imgFla img {
     margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
+
 .timeline::after {
     content: '';
     position: absolute;
@@ -110,7 +110,7 @@ header .imgFla img {
     margin-left: -3px;
 }
 
-/* Container around content */
+
 .container {
     padding: 10px 40px;
     position: relative;
@@ -118,7 +118,7 @@ header .imgFla img {
     width: 50%;
 }
 
-/* The circles on the timeline */
+
 .container::after {
     content: '';
     position: absolute;
@@ -132,17 +132,17 @@ header .imgFla img {
     z-index: 1;
 }
 
-/* Place the container to the left */
+
 .left {
     left: 0;
 }
 
-/* Place the container to the right */
+
 .right {
     left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+
 .left::before {
     content: " ";
     height: 0;
@@ -156,7 +156,6 @@ header .imgFla img {
     border-color: transparent transparent transparent white;
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
     content: " ";
     height: 0;
@@ -170,12 +169,10 @@ header .imgFla img {
     border-color: transparent white transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
     left: -16px;
 }
 
-/* The actual content */
 .artilheiros {
  display: flex;
  flex-direction: column;
